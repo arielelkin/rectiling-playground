@@ -128,6 +128,16 @@ button:disabled {
   cursor: not-allowed;
 }
 
+button.outline {
+  background: white;
+  color: #0056d1;
+  border: 1px solid #8cb1ff;
+}
+
+button.outline:hover {
+  background: #f0f5ff;
+}
+
 output#status {
   min-height: 1.5rem;
   font-size: 0.95rem;
@@ -142,7 +152,7 @@ output#status {
 }
 
 #tilingCanvas {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   background: #f1f4ff;
